@@ -1,0 +1,16 @@
+<html>
+    <head>
+        <title>Site de carros</title> 
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body>
+        <h1> Este é o melhor site de carros do mundo</h1>
+        <h2>Sobre carros</h2>
+        <h3>Top 10 carros</h3>
+        <p>Carros são importantes para mim</p>
+        <p> Essas são os carros mais top das galáxias <a href=https://www.webmotors.com.br/comprar/bmw/320i/20-16v-turbo-flex-m-sport-automatico/4-portas/2021-2022/50652580?pos=m50652580g:&np=1> clique aqui</a></p>
+        <img src="bmwazul.jpg"/>
+        <img src = "bmw.jpeg" alt="" height="500px"
+        width="800"/>
+    </body>
+</html>
