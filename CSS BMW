@@ -1,0 +1,4 @@
+h1{font-size:48pt}
+h2{color:rgb(6, 40, 230);
+    font-style:bold;
+    font-size:medium;}
