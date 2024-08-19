@@ -1,0 +1,1325 @@
+Home Space HTML
+
+<html>
+    
+
+<head> <!-- Título do site na barrinha-->
+<title> E_Link Cars </title>
+
+<link rel="stylesheet" type="text/css" href="Style.css"> <!--Link entre HTML e CSS-->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+
+
+
+
+<body>
+
+    <h1 style="text-align: center;">E_Link Cars</h1>
+    <p style="text-align: center;">Site de direcionamento de carros</p>
+    
+    <nav> <!-- Barra de navegação-->
+        <ul>
+          <li><a href="http://127.0.0.1:5500/Tabela.html">Tabela Fipe</a></li>
+          <li><a href="http://127.0.0.1:5500/sobre.html">Sobre</a></li>
+        </ul>
+      </nav>
+    
+      <button class="image-button">
+        <img src="Volkswagen.png" alt="" width="150" height="150">
+        <button class="image-button">
+          <a href="http://127.0.0.1:5500/volkswagen.html" class="button-link">
+            <img src="Volkswagen.png" alt="Volkswagen" width="150" height="150">
+          
+          </a>
+         </button>
+
+        
+     
+    </button>
+      <button class="image-button2">
+        <a href="http://127.0.0.1:5500/Honda.html" class="button-link">
+        <img src="hondaa.png" alt="Honda" width="100" height="100">
+      </a>
+       </button>
+       
+     
+    </button>
+    <button class="image-button3">
+      <a href="http://127.0.0.1:5500/Fiat.html" class="button-link">
+      <img src="fiat.png" alt="" width="150" height="150">
+    </button>
+   
+    <button class="image-button4">
+      <a href="http://127.0.0.1:5500/Ford.html" class="button-link">
+      <img src="ford.png" alt="" width="150" height="150">
+    </button>
+  
+    <button class="image-button5">
+      <a href="http://127.0.0.1:5500/Chevrolet.html" class="button-link">
+      <img src="Chevrolet.png" alt="" width="150" height="150">
+    </button>
+
+    <button class="image-button6">
+      <a href="http://127.0.0.1:5500/Toyota.html">
+      <img src="toyota.png" alt="" width="150" height="150">
+    </button>
+    <script src='https://unpkg.com/swiper@8/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+
+
+    </body>
+
+
+
+
+
+
+</html>
+
+Home Space CSS
+
+/* Parte de estilo da barra de navegação*/
+nav {
+    background-color: #565f63;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Adiciona flexbox para alinhar os itens */
+    justify-content: space-between; /* Distribui os itens igualmente */
+  }
+  
+  nav ul li {
+    flex: 1; /* Define a largura dos itens */
+  }
+  
+  nav ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition:  0.5s; /* Adiciona efeito de transição */
+    
+  }
+  
+  nav ul li a:hover {
+    background-color: #333; /* Cor de fundo mais escura para hover */
+  }
+  
+  
+  
+  body {
+    background-image: url('novohonda.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+
+
+
+  h1 {
+    color: #565f63;
+  }
+  
+  p {
+    color: #f0ec2c;
+  }
+  
+  /*Volkswagen*/
+  .image-button {
+    position: absolute;
+    top: 200px;
+    left: 750px; /* posição botão */
+  } 
+
+ 
+  .image-button {
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer; /* Muda o cursor para uma mão */
+  }
+  
+
+  .image-button img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Adiciona borda arredondada à imagem */
+  }
+
+ 
+  .image-button {
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    width: 150px;
+    height: 150px;
+    transition: transform 0.2s ease-in-out; /* Adiciona animação de transição */
+  }
+  
+
+
+  .image-button img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .image-button:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do botão ao passar o mouse */
+  }
+
+  
+ 
+  /*honda*/
+  .image-button2 {
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer; /* Muda o cursor para uma mão */
+  }
+
+  .image-button2 img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Adiciona borda arredondada à imagem */
+  }                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+  
+  .image-button2 {
+    border: none;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+    width: 320px;
+    height: 320px;
+    transition: transform 0.2s ease-in-out; /* Adiciona animação de transição */
+  }
+  .image-button2 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+  }
+  
+  .image-button2:hover {
+    transform: scale(1.3); /*define o quão grande a logo vai ficar quando o mouse passar por cima dele*/
+  }
+
+  .image-button2 {
+    position: absolute;
+    top: 145px;
+    left: 860px; /* posição botão */
+  } 
+
+
+  
+
+  
+  
+  /*fiat*/
+    .image-button3 {
+      border: none;
+      background: transparent;
+      padding: 0;
+      cursor: pointer; /* Muda o cursor para uma mão */
+    }
+  
+    .image-button3 img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; /* Adiciona borda arredondada à imagem */
+    }
+  
+    
+    .image-button3 {
+      border: none;
+      background: transparent;
+      padding: 0;
+      cursor: pointer;
+      width: 155px;
+      height: 155px;
+      transition: transform 0.2s ease-in-out; /* Adiciona animação de transição */
+    }
+    .image-button3 img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    
+    .image-button3:hover {
+      transform: scale(1.2);
+    }
+  
+    .image-button3 {
+      position: absolute;
+      top: 200px;
+      left: 1140px; /* posição botão */
+    }
+
+
+   
+   
+    /*ford*/
+    .image-button4 {
+      border: none;
+      background: transparent;
+      padding: 0;
+      cursor: pointer; /* Muda o cursor para uma mão */
+    }
+  
+    .image-button4 img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; /* Adiciona borda arredondada à imagem */
+    }
+  
+    
+    .image-button4 {
+      border: none;
+      background: transparent;
+      padding: 0;
+      cursor: pointer;
+      width: 170px;
+      height: 90px;
+      transition: transform 0.2s ease-in-out; /* Adiciona animação de transição */
+    }
+    .image-button4 img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    
+    .image-button4:hover {
+      transform: scale(1.2);
+    }
+  
+    .image-button4 {
+      position: absolute;
+      top: 410px;
+      left: 740px; /* posição botão */
+    }
+
+
+
+    /*chevrolet*/
+    .image-button5 {
+      border: none;
+      background: transparent;
+      padding: 0;
+      cursor: pointer; /* Muda o cursor para uma mão */
+    }
+  
+    .image-button5 img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; /* Adiciona borda arredondada à imagem */
+    }
+  
+    
+    .image-button5 {
+      border: none;
+      background: transparent;
+      padding: 0;
+      cursor: pointer;
+      width: 200px;
+      height: 100px;
+      transition: transform 0.2s ease-in-out; /* Adiciona animação de transição */
+    }
+    .image-button5 img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    
+    .image-button5:hover {
+      transform: scale(1.2);
+    }
+  
+    .image-button5 {
+      position: absolute;
+      top: 420px;
+      left: 930px; /* posição botão */
+    }
+
+    /*toyota*/
+    .image-button6 {
+      border: none;
+      background: transparent;
+      padding: 0;
+      cursor: pointer; /* Muda o cursor para uma mão */
+    }
+  
+    .image-button6 img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; /* Adiciona borda arredondada à imagem */
+    }
+  
+    
+    .image-button6 {
+      border: none;
+      background: transparent;
+      padding: 0;
+      cursor: pointer;
+      width: 200px;
+      height: 170px;
+      transition: transform 0.2s ease-in-out; /* Adiciona animação de transição */
+    }
+    .image-button6 img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+    
+    .image-button6:hover {
+      transform: scale(1.2);
+    }
+  
+    .image-button6 {
+      position: absolute;
+      top: 400px;
+      left: 1120px; /* posição botão */
+    }
+
+
+    
+HTML Car dealership
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  
+  <meta charset="UTF-8">
+  <title>E_Link Volkswagen </title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /><link rel="stylesheet" href="./Volkswagen.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+
+<div class="swiper-container">
+  <!-- O wrapper é onde os slides serão inseridos -->
+  <div class="swiper-wrapper">
+    <!-- Cada slide é uma div com a classe swiper-slide -->
+    <div class="swiper-slide">
+      <div class="card">
+        <!-- A imagem está dentro de uma div com a classe image-box -->
+        <div class="image-box">
+          <img src="corolla.jpg" alt="corolla" />
+        </div>
+        <!-- O conteúdo do cartão está dentro de uma div com a classe content -->
+        <div class="content">
+          <h2>Toyota Corolla </h2>
+          <p>
+            Toyota Corolla é um modelo oferecido em versões sedan, hatchback e perua. Também é o modelo mais vendido da história, 
+            com produção nos cinco continentes e vendas totais superiores a 50 milhões de automóveis desde seu lançamento, em 1966.
+        </div>
+        
+      </div>
+      <a href="https://www.webmotors.com.br/carros/estoque/toyota/corolla?estadocidade=estoque&marca1=TOYOTA&modelo1=COROLLA&autocomplete=coroll&autocompleteTerm=TOYOTA%20COROLLA&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::toyota%20corolla" class="button-link">
+        <button id="myButton" class="button">Clique aqui: Web Motors</button>
+      </a>
+      <style>.button-link {
+        text-decoration: none;
+        color: inherit;
+      }
+      
+      .button {
+        background-color: #565f63;
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        transition: background-color 0.5s ease;
+      }
+      
+      .button:hover {
+        background-color: #ff192c;
+        
+      }</style>
+    </div>
+
+    <!-- Adicione mais cartões conforme necessário -->
+    <div class="swiper-slide">
+      <div class="card">
+        <div class="image-box">
+          <img src="etios2.jpg" alt="etios" />
+        </div>
+        <div class="content">
+          <h2>Toyota Etios</h2>
+          <p>
+            O Etios é um modelo compacto desenvolvido pela Toyota especialmente para os mercados emergentes. Foi apresentado sob a forma de protótipo em 6 de janeiro de 2010 e na 
+            forma final de produção em 1 de dezembro de 2010.
+          </p>
+        </div>
+        
+      </div>
+      <a href="https://www.webmotors.com.br/carros/estoque/toyota/etios?estadocidade=estoque&marca1=TOYOTA&modelo1=ETIOS&autocomplete=etios&autocompleteTerm=TOYOTA%20ETIOS&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::toyota%20etios" class="button-link">
+        <button id="myButton" class="button">Clique aqui: Web Motors</button>
+      </a>
+      <style>.button-link {
+        text-decoration: none;
+        color: inherit;
+      }
+      
+      .button {
+        background-color: #565f63;
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        transition: background-color 0.5s ease;
+      }
+      
+      .button:hover {
+        background-color: #ff192c;
+        
+      }</style> 
+    </div>
+    
+    <div class="swiper-slide">
+      <div class="card">
+        <div class="image-box">
+          <img src="supra2.jpg" alt="supra" />
+        </div>
+        <div class="content">
+          <h2>Toyota supra</h2>
+          
+          <p>
+            O Toyota Supra é um automóvel desportivo produzido pela fabricante japonesa Toyota entre 1978 e 2002, e desde 2019 até o presente. Ficou popular por ser o segundo carro de Brian O`Conner em Velozes e Furiosos, sendo talvez o carro mais icônico da série de filmes.
+          
+        </div>
+      </div>
+      <a href="https://www.webmotors.com.br/carros/estoque/toyota/supra?estadocidade=estoque&marca1=TOYOTA&modelo1=SUPRA&autocomplete=supra&autocompleteTerm=TOYOTA%20SUPRA&lkid=1705" class="button-link">
+        <button id="myButton" class="button">Clique aqui: Web Motors</button>
+      </a>
+      <style>.button-link {
+        text-decoration: none;
+        color: inherit;
+      }
+      
+      .button {
+        background-color: #565f63;
+        border: none;
+        color: white;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+        transition: background-color 0.5s ease;
+      }
+      
+      .button:hover {
+        background-color: #ff192c;
+        
+      }</style> 
+
+    </div>
+    
+    <div class="swiper-slide">
+      <div class="card">
+        <div class="image-box">
+          <img src="toyotalogo.png" alt="toyota" />
+        </div>
+        <div class="content">
+          <h2>Toyota
+          <p>
+            Toyota Motor Corporation é um fabricante automotivo japonês com sede na Toyota, província de Aichi, no Japão.  
+            em fevereiro de 2016, era a 13.ª maior empresa do mundo por receita. A Toyota foi o maior fabricante de automóveis em 2012 (por produção) à frente do Grupo Volkswagen e da General Motors.
+          </p>
+        </div>
+       </div>
+     
+     
+      <a href="https://pt.wikipedia.org/wiki/Toyota_Motor" class="button-link">
+        <button id="myButton" class="button2">Clique aqui: Wikipédia</button>
+      </a>
+      
+    </div>
+  <!-- A barra de navegação do carrossel está dentro de uma div com a classe swiper-pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<style>.card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid#ff0001;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }</style>
+          
+    
+</div>
+<!-- partial -->
+  <script src='https://unpkg.com/swiper@8/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
+
+PART 2
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  
+  <meta charset="UTF-8">
+  <title>E_Link Volkswagen </title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /><link rel="stylesheet" href="./Volkswagen.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+
+<div class="swiper-container">
+  <!-- O wrapper é onde os slides serão inseridos -->
+  <div class="swiper-wrapper">
+    <!-- Cada slide é uma div com a classe swiper-slide -->
+    <div class="swiper-slide">
+      <div class="card">
+        <!-- A imagem está dentro de uma div com a classe image-box -->
+        <div class="image-box">
+          <img src="golfff.jpg" alt="Golf GTI" />
+        </div>
+        <!-- O conteúdo do cartão está dentro de uma div com a classe content -->
+        <div class="content">
+          <h2>Golf GTI</h2>
+          <p>
+            O Golf foi lançado em 1974, tendo sua versão GTI lançada em 76, com sua estreia na Alemanha em Wolfburg.
+            
+            <p>
+        </div>
+      </div>
+      <a href="https://www.webmotors.com.br/carros/estoque/volkswagen/golf?estadocidade=estoque&marca1=VOLKSWAGEN&modelo1=GOLF&autocomplete=golf&autocompleteTerm=VOLKSWAGEN%20GOLF&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::volkswagen%20golf" class="button-link">
+        <button id="myButton" class="button">Clique aqui: Web Motors</button>
+      </a>
+    </div>
+
+    <!-- Adicione mais cartões conforme necessário -->
+    <div class="swiper-slide">
+      <div class="card">
+        <div class="image-box">
+          <img src="polo.webp" alt="Volkswagen Polo" />
+        </div>
+        <div class="content">
+          <h2>Volkswagen Polo</h2>
+          <p>
+            O Volkswagen Polo é um automóvel fabricado pela Volkswagen no Brasil desde 2002, e na Alemanha desde 1974.
+          </p>
+          
+        </div>
+      </div>
+      <a href="https://www.webmotors.com.br/carros/estoque/volkswagen/polo?estadocidade=estoque&marca1=VOLKSWAGEN&modelo1=POLO&autocomplete=polo&autocompleteTerm=VOLKSWAGEN%20POLO&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::volkswagen%20polo" class="button-link">
+        <button id="myButton" class="button">Clique aqui: Web Motors</button>
+      </a>
+      </div>
+    
+    <div class="swiper-slide">
+      <div class="card">
+        <div class="image-box">
+          <img src="santana.jpg" alt="Volkswagen Santana" />
+        </div>
+        <div class="content">
+          <h2>Volkswagen Santana</h2>
+          <p>
+            O Santana foi um automóvel de porte médio produzido pela Volkswagen em diversos países, derivado do Volkswagen Passat alemão. 
+            Foi eleito pela revista Autoesporte o Carro do Ano de 1989 e recebeu o título Eleito do Ano em 1991 pela revista Quatro Rodas. 
+          </p>
+          
+        </div>
+      </div>
+      <a href="https://www.webmotors.com.br/carros/estoque/volkswagen/santana?estadocidade=estoque&marca1=VOLKSWAGEN&modelo1=SANTANA&autocomplete=santana&autocompleteTerm=VOLKSWAGEN%20SANTANA&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::volkswagen%20santana" class="button-link">
+        <button id="myButton" class="button">Clique aqui: Web Motors</button>
+      </a>
+    </div>
+    
+    <div class="swiper-slide">
+      <div class="card">
+        <div class="image-box">
+          <img src="Volkswagen Polo (4).png" alt="Volkswagen Polo" />
+        </div>
+        <div class="content">
+          <h2>Volkswagen</h2>
+          <p>
+            A Volkswagen é uma fabricante alemã de veículos que pertence ao Grupo Volkswagen. É o maior fabricante de automóveis do mundo e tem a sua sede na cidade de Wolfsburg, na Baixa Saxônia.
+          </p>
+        </div>
+      </div>
+      <a href="https://pt.wikipedia.org/wiki/Volkswagen" class="button-link">
+        <button id="myButton" class="button2">Clique aqui: Wikipédia</button>
+      </a>
+    </div>
+
+  <!-- A barra de navegação do carrossel está dentro de uma div com a classe swiper-pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+      
+    
+</div>
+<!-- partial -->
+  <script src='https://unpkg.com/swiper@8/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
+
+PART 3
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /><link rel="stylesheet" href="./Volkswagen.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E_Link Honda</title>
+</head>
+<body>
+    <div class="swiper-container">
+        <!-- O wrapper é onde os slides serão inseridos -->
+        <div class="swiper-wrapper">
+          <!-- Cada slide é uma div com a classe swiper-slide -->
+          <div class="swiper-slide">
+            <div class="card">
+              <!-- A imagem está dentro de uma div com a classe image-box -->
+              <div class="image-box">
+                <img src="city.jpg" alt="City" />
+              </div>
+              <!-- O conteúdo do cartão está dentro de uma div com a classe content -->
+              <div class="content">
+                <h2>Honda City</h2>
+                <p>
+                    O City é um veículo compacto, produzido mundialmente pela Honda desde 1981 e no Brasil desde 2009. Atualmente encontra-se em sua 7ª geração.
+                  <p>
+              
+              </div>
+            </div>
+            <a href="https://www.webmotors.com.br/carros/estoque/honda/city?estadocidade=estoque&marca1=HONDA&modelo1=CITY&autocomplete=city&autocompleteTerm=HONDA%20CITY&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::honda%20city" class="button-link">
+              <button id="myButton" class="button">Clique aqui: Web Motors</button>
+            </a>
+          </div>
+      
+          <!-- Adicione mais cartões conforme necessário -->
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="image-box">
+                <img src="civicão.jpg" alt="Civic" />
+              </div>
+              <div class="content">
+                <h2>Honda Civic G6</h2>
+                <p>
+                    O Honda Civic é um automóvel produzido pela Honda desde 1973. Atualmente encontra-se em sua décima primeira geração. Foi eleito duas vezes o Carro do Ano pela revista Autoesporte, em 2007 e em 2017. Aperte para acessar Web Motors
+                </p>
+                <p>Clique aqui: Web Motors</p>
+              </div>
+            </div>
+            <a href="https://www.webmotors.com.br/carros/estoque/honda/civic?estadocidade=estoque&marca1=HONDA&modelo1=CIVIC&autocomplete=civic&autocompleteTerm=HONDA%20CIVIC&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::honda%20civict" class="button-link">
+              <button id="myButton" class="button">Clique aqui: Web Motors</button>
+            </a>
+          </div>
+          
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="image-box">
+                <img src="fittt.jpg" alt="fit" />
+              </div>
+              <div class="content">
+                <h2>Honda fit</h2>
+                <p>
+                    O Honda Fit  é um carro subcompacto, comercializado pela Honda desde 2001. Co suas vendas atingiram quase 5 milhões de unidades em meados de 2013.
+
+
+                </p>
+               
+              </div>
+            </div>
+            <a href="https://www.webmotors.com.br/carros/estoque/honda/fit?estadocidade=estoque&marca1=HONDA&modelo1=FIT&autocomplete=honda%20fit&autocompleteTerm=HONDA%20FIT&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::honda%20fit" class="button-link">
+              <button id="myButton" class="button">Clique aqui: Web Motors</button>
+            </a>
+          </div>
+          
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="image-box">
+                <img src="hondalogo.png" alt="Volkswagen Polo" />
+              </div>
+              <div class="content">
+                <h2>Honda</h2>
+                <p>
+                    Honda Motor Company, comumente conhecida como Honda, é um dos mais importantes fabricantes de automóveis e motocicletas do mundo. Fundada por Soichiro Honda. 
+                </p>
+              
+              </div>
+            </div>
+            <a href="https://pt.wikipedia.org/wiki/Honda" class="button-link">
+              <button id="myButton" class="button2">Clique aqui: Wikipédia</button>
+            </a>
+          </div>
+      
+        <!-- A barra de navegação do carrossel está dentro de uma div com a classe swiper-pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      
+            
+          
+      </div>
+      <!-- partial -->
+        <script src='https://unpkg.com/swiper@8/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+<style>.card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid #252525;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }</style>
+</body>
+</html>
+
+PART 4
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /><link rel="stylesheet" href="./Volkswagen.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E_Link Ford</title>
+</head>
+<body>
+    <!-- partial:index.partial.html -->
+
+
+<div class="swiper-container">
+    <!-- O wrapper é onde os slides serão inseridos -->
+    <div class="swiper-wrapper">
+      <!-- Cada slide é uma div com a classe swiper-slide -->
+      <div class="swiper-slide">
+        <div class="card">
+          <!-- A imagem está dentro de uma div com a classe image-box -->
+          <div class="image-box">
+            <img src="fusion3.jpg" alt="Ford Fusion" />
+          </div>
+          <!-- O conteúdo do cartão está dentro de uma div com a classe content -->
+          <div class="content">
+            <h2>Ford Fusion</h2>
+            <p>
+                O Fusion Foi lançado no mercado americano em 2005 com motor V6 e um ano depois recebeu o motor 2.3 Duratec 
+              <p>
+          </div>
+        </div>
+        <a href="https://www.webmotors.com.br/carros/estoque/ford/fusion?estadocidade=estoque&marca1=FORD&modelo1=FUSION&autocomplete=fusion&autocompleteTerm=FORD%20FUSION&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::ford%20fusion" class="button-link">
+          <button id="myButton" class="button">Clique aqui: Web Motors</button>
+        </a>
+      </div>
+  
+      <!-- Adicione mais cartões conforme necessário -->
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="image-box">
+            <img src="ka.jpg" alt="Ka" />
+          </div>
+          <div class="content">
+            <h2>Ford Ka</h2>
+            <p>
+                O Ka é um carro pequeno fabricado pela Ford Motor Company de 1996 a 2016 como um carro de cidade e de 2016 a 2021 como um carro subcompacto.
+            </p>
+          </div>
+        </div>
+        <a href="https://www.webmotors.com.br/carros/estoque/ford/ka?estadocidade=estoque&marca1=FORD&modelo1=KA&autocomplete=ka&autocompleteTerm=FORD%20KA&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::ford%20ka" class="button-link">
+          <button id="myButton" class="button">Clique aqui: Web Motors</button>
+        </a>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="image-box">
+            <img src="mustang2.jpg" alt="Ford" />
+          </div>
+          <div class="content">
+            <h2>Ford mustang</h2>
+            <p>
+                O Ford Mustang é um automóvel desportivo produzido pela Ford Motor Company. O carro foi apresentado ao público em 17 de abril de 1964 durante a New York World's Fair. Ao longo dos anos é a mais antiga linha de automóveis da Ford, cujo nome se inspira na única raça de cavalo selvagem do país. Foi o primeiro "Muscle Car" da história.
+
+
+          </div>
+          </div>
+          <a href="https://www.webmotors.com.br/carros/estoque/ford/mustang?estadocidade=estoque&marca1=FORD&modelo1=MUSTANG&autocomplete=mustang&autocompleteTerm=FORD%20MUSTANG&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::ford%20mustang" class="button-link">
+            <button id="myButton" class="button">Clique aqui: Web Motors</button>
+          </a>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="image-box">
+            <img src="frodalogo.png" alt="Ford" />
+          </div>
+          <div class="content">
+            <h2>Ford</h2>
+            <p>
+                Ford Motor Company (geralmente referida simplesmente como Ford) é uma fabricante de automóveis multinacional estadunidense sediada em Dearborn, Michigan, um subúrbio de Detroit. Foi fundada por Henry Ford e incorporada em 16 de junho de 1903. 
+            </p>
+            
+          </div>
+           </div>
+        <a href="https://pt.wikipedia.org/wiki/Ford_Motor_Company" class="button-link">
+          <button id="myButton" class="button2">Clique aqui: Wikipédia</button>
+        </a>
+      </div>
+  
+    <!-- A barra de navegação do carrossel está dentro de uma div com a classe swiper-pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+  <style>.card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid#0d177b;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }</style>
+        
+        
+      
+  </div>
+  <!-- partial -->
+    <script src='https://unpkg.com/swiper@8/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>
+
+PART 5
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /><link rel="stylesheet" href="./Volkswagen.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E_Link fiat</title>
+</head>
+<body>
+    
+<div class="swiper-container">
+    <!-- O wrapper é onde os slides serão inseridos -->
+    <div class="swiper-wrapper">
+      <!-- Cada slide é uma div com a classe swiper-slide -->
+      <div class="swiper-slide">
+        <div class="card">
+          <!-- A imagem está dentro de uma div com a classe image-box -->
+          <div class="image-box">
+            <img src="argoo.jpg" alt="Argo" />
+          </div>
+          <!-- O conteúdo do cartão está dentro de uma div com a classe content -->
+          <div class="content">
+            <h2>Fiat Argo</h2>
+            <p>
+              O Argo é um automóvel hatch da Fiat, que foi lançado no Brasil no dia 31 de maio de 2017, para substituir o Punto, Bravo e o Palio. Seu nome remete ao mito grego de Jasão e os Argonautas que viajavam a bordo da nau Argo, construída pelo semideus Argos, sob orientação da deusa Atena.
+              <p>
+              
+          </div>
+        </div>
+        <a href="https://www.webmotors.com.br/carros/estoque/fiat/argo?estadocidade=estoque&marca1=FIAT&modelo1=ARGO&autocomplete=fiat%20ar&autocompleteTerm=FIAT%20ARGO&lkid=1705" class="button-link">
+          <button id="myButton" class="button">Clique aqui: Web Motors</button>
+        </a>
+      </div>
+  
+      <!-- Adicione mais cartões conforme necessário -->
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="image-box">
+            <img src="mobi.jpg" alt="Mobi" />
+          </div>
+          <div class="content">
+            <h2>Fiat Mobi</h2>
+            <p>
+                O Mobi é um veiculo do segmento subcompacto produzido pela Fiat em Betim, Minas Gerais, Brasil. Ele foi lançado no dia 13 de abril de 2016. 
+            </p>
+            
+          </div>
+        </div>
+        <a href="https://www.webmotors.com.br/carros/estoque/fiat/mobi?estadocidade=estoque&marca1=FIAT&modelo1=MOBI&autocomplete=mob&autocompleteTerm=FIAT%20MOBI&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::fiat%20mobi" class="button-link">
+          <button id="myButton" class="button">Clique aqui: Web Motors</button>
+        </a>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="image-box">
+            <img src="unão.jpg" alt="Deus das estradas" />
+          </div>
+          <div class="content">
+            <h2>Fiat Uno God of Streets</h2>
+            <p>
+                O Fiat Uno, também chamado de Deus das estradas, era lançado na Europa em 1983. Foi lançado no Brasil no ano seguinte. A versão antiga (e raiz) foi produzida até dezembro de 2013. O primeiro carro a vir com suspensão 4x4 invisível, nem a Fiat sabe o que fez, só Deus para explicar.
+            </p>
+            
+          </div>
+        </div>
+        <a href="https://www.webmotors.com.br/carros/estoque/fiat/uno/de.2000/ate.2011?tipoveiculo=carros&anoate=2011&anode=2000&marca1=FIAT&modelo1=UNO" class="button-link">
+          <button id="myButton" class="button">Clique aqui: Web Motors</button>
+        </a>
+      </div>
+      
+      <div class="swiper-slide">
+        <div class="card">
+          <div class="image-box">
+            <img src="FiatLogo.png" alt="Volkswagen Polo" />
+          </div>
+          <div class="content">
+            <h2>Fiat</h2>
+            <p>
+                FIAT é uma das marcas da Stellantis, 
+                um dos maiores fabricantes de automóveis do mundo, com sede mundial na cidade de Turim, norte da 
+                Itália. A empresa Fiat Automobiles S.p.A. foi formada em janeiro de 2007.
+            </p>
+           
+          </div>
+        </div>
+        <a href="https://pt.wikipedia.org/wiki/Honda" class="button-link">
+          <button id="myButton" class="button2">Clique aqui: Wikipédia</button>
+        </a>
+      </div>
+  
+    <!-- A barra de navegação do carrossel está dentro de uma div com a classe swiper-pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+  <style>.card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid #cf1347;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }</style>
+        
+      
+  </div>
+  <!-- partial -->
+    <script src='https://unpkg.com/swiper@8/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>
+
+PART 6
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  
+  <meta charset="UTF-8">
+  <title>E_Link Volkswagen </title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" /><link rel="stylesheet" href="./Volkswagen.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+
+<div class="swiper-container">
+  <!-- O wrapper é onde os slides serão inseridos -->
+  <div class="swiper-wrapper">
+    <!-- Cada slide é uma div com a classe swiper-slide -->
+    <div class="swiper-slide">
+      <div class="card">
+        <!-- A imagem está dentro de uma div com a classe image-box -->
+        <div class="image-box">
+          <img src="onix.pg.jpg" alt="Onix" />
+        </div>
+        <!-- O conteúdo do cartão está dentro de uma div com a classe content -->
+        <div class="content">
+          <h2>Chevrolet Onix</h2>
+          <p>
+            O Chevrolet Onix é um automóvel hatchback produzido pela Chevrolet; desenvolvido e fabricado pela General Motors do Brasil em 2013, 
+        </div>
+      </div>
+      <a href="https://www.webmotors.com.br/carros/estoque/chevrolet/onix?estadocidade=estoque&marca1=CHEVROLET&modelo1=ONIX&autocomplete=onix&autocompleteTerm=CHEVROLET%20ONIX&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::chevrolet%20onix" class="button-link">
+        <button id="myButton" class="button">Clique aqui: Web Motors</button>
+      </a>
+    </div>
+
+    <!-- Adicione mais cartões conforme necessário -->
+    <div class="swiper-slide">
+      <div class="card">
+        <div class="image-box">
+          <img src="cruze.jpg" alt="cruze" />
+        </div>
+        <div class="content">
+          <h2>Chevrolet Cruze</h2>
+          <p>
+            O Chevrolet Cruze é um automóvel de porte médio apresentado pela General Motors na edição de 2008 do Paris Motor Show.
+          </p>
+        </div>
+      </div>
+      <a href="https://www.webmotors.com.br/carros/estoque/chevrolet/cruze?estadocidade=estoque&marca1=CHEVROLET&modelo1=CRUZE&autocomplete=cruze&autocompleteTerm=CHEVROLET%20CRUZE&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::chevrolet%20cruze" class="button-link">
+        <button id="myButton" class="button">Clique aqui: Web Motors</button>
+      </a>
+    </div>
+    
+    <div class="swiper-slide">
+      <div class="card">
+        <div class="image-box">
+          <img src="chevette1.jpg" alt="Chevette" />
+        </div>
+        <div class="content">
+          <h2>Chevrolet Chevette</h2>
+          <p>
+            O Chevette foi lançado pela General Motors no ano de 1973, sendo fabricado pela montadora Chevrolet no Brasil. e 80.
+            Foi eleito por duas vezes pela Revista Autoesporte o Carro do Ano em 1974 e em 1981. Em 1983, pela primeira e única vez em sua história, o Chevette foi o carro mais vendido no Brasil.
+          </p>
+        </div>
+      </div>
+      <a href="https://www.webmotors.com.br/carros/estoque/chevrolet/chevette?estadocidade=estoque&marca1=CHEVROLET&modelo1=CHEVETTE&autocomplete=cheve&autocompleteTerm=CHEVROLET%20CHEVETTE&lkid=1705&idcmpint=t1:c17:m07:webmotors:modelo::chevrolet%20chevette" class="button-link">
+        <button id="myButton" class="button">Clique aqui: Web Motors</button>
+      </a>
+    </div>
+    
+    <div class="swiper-slide">
+      <div class="card">
+        <div class="image-box">
+          <img src="chevroletlogo.png" alt="Chevrolet" />
+        </div>
+        <div class="content">
+          <h2>Chevrolet 
+          <p>
+            A Volkswagen é uma fabricante alemã de veículos que pertence ao Grupo Volkswagen. É o maior fabricante de automóveis do mundo e tem a sua sede na cidade de Wolfsburg, na Baixa Saxônia.
+          </p>
+          
+        </div>
+      </div>
+      <a href="https://pt.wikipedia.org/wiki/Chevrolet" class="button-link">
+        <button id="myButton" class="button2">Clique aqui: Wikipédia</button>
+      </a>
+    </div>
+
+  <!-- A barra de navegação do carrossel está dentro de uma div com a classe swiper-pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+<style>.card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border: 2px solid#e2ce15;
+    border-radius: inherit;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+  }</style>
+          
+    
+</div>
+<!-- partial -->
+  <script src='https://unpkg.com/swiper@8/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
+
+
+CSS car dealership (ALL)
+
+/*parte nova*/
+
+body {
+    background: #000000;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0006);
+}
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(1, 0, 6);
+  display: grid;
+  place-items: center;
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+.card {
+  width: 400px;
+  aspect-ratio: 1 / 0.7;
+  border-radius: 8px;
+  position: relative;
+  cursor: pointer;
+}
+.card .image-box {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+}
+.card .image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 90%;
+  border-radius: inherit;
+  transition: 0.5s ease-in-out;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 2px solid #287cff;
+  border-radius: inherit;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+}
+
+.card:hover img {
+  filter: grayscale(1) brightness(0.4);
+}
+.card:hover::after {
+  opacity: 1;
+  inset: 20px;
+}
+
+.content {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.content h2,
+.content p {
+  opacity: 0;
+  transition: 0.4s 0.2s ease;
+}
+.content h2 {
+  margin-bottom: 12px;
+  scale: 0.7;
+}
+.content p {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #ffffff;
+  transform: translateY(50%);
+}
+.card:hover .content h2 {
+  scale: 1;
+  opacity: 1;
+}
+.card:hover .content P {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.button-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.button {
+  background-color: #000000;
+  border: 2px solid #d41e33;
+  color: #ffffff;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.5s ease;
+  box-shadow: 0 0 0 #000000;
+}
+
+.button:hover {
+  background-color: #d41e33 
+
+}
+
+.button2 {
+  background-color: #000000;
+  border: 2px solid #42ffa1d2;
+  color: #ffffff;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.5s ease;
+  box-shadow: 0 0 0 #000000;
+}
+
+.button2:hover {
+  background-color: #42ffa1d2
+
+}
+
+
+
+
+
+
+
+
